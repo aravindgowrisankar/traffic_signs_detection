@@ -119,28 +119,30 @@ Please see attached folder web_images for the actual images.
 
 Ahead Only:
 
-![Traffic Sign 1](./web_images/Ahead only_1.jpg)
+![Traffic Sign 1](./web_images/Ahead%20only_1.jpg =100x100)
 
 Pedestrians:
 
-![Traffic Sign 2](./web_images/Pedestrians_1.jpg)
+![Traffic Sign 2](./web_images/Pedestrians_1.jpg =100x100)
 
 Children Crossing
-![Traffic Sign 3](./web_images/Children crossing_1.jpg)
+![Traffic Sign 3](./web_images/Children%20crossing_1.jpg =100x100)
 
 No Entry:
 
-![Traffic Sign 4](./web_images/No entry_1.jpg)
+![Traffic Sign 4](./web_images/No%20entry_1.jpg =100x100)
 
-![Traffic Sign 5](./web_images/No entry_2.jpg)
+![Traffic Sign 5](./web_images/No%20entry_2.jpg =100x100)
 
 General Caution:
-![Traffic Sign 6](./web_images/General caution_1.jpg) 
 
-![Traffic Sign 7](./web_images/General caution_2.jpg)
+![Traffic Sign 6](./web_images/General%20caution_1.jpg =100x100) 
+
+![Traffic Sign 7](./web_images/General%20caution_2.jpg =100x100)
 
 Not a Sign!
-![Cat picture/Not a sign](./web_images/cat.jpg)
+
+![Cat picture/Not a sign](./web_images/cat.jpg =100x100)
 
 
 Example qualities  which make it difficult to identify images:
