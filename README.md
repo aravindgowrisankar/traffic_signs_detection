@@ -43,7 +43,7 @@ They seem to be taken in different lighting conditions. The speed limit signs (e
 Normalization : Subract 128 and Divide by 128 to get RGB intensities into -1 to 1 range. 
 Why: It's easier for Neural nets to optimize in this range.
 
-#### 2. 
+#### 2. Training and Test set
 Training, Test and Validation set were provided as a part of the project. I did not have to create a separate validation set.
 
 The difference between the original data set and the augmented data set is the following ... 
@@ -92,13 +92,13 @@ Then I augmented by training set with more examples by applying some image-proce
 
 
 My final model results were:
-* training set accuracy of ? 0.98
 
-* validation set accuracy of ? 0.91
+* training set accuracy of **0.98**
 
-* test set accuracy of ?0.91
+* validation set accuracy of **0.91**
 
-If a well known architecture was chosen: 
+* test set accuracy of **0.91**
+
 * What architecture was chosen? 
 LeNet Solution from example with tweaks to pre-processing based on ideas from the paper
 
@@ -119,37 +119,42 @@ Please see attached folder web_images for the actual images.
 
 Ahead Only:
 
-![Traffic Sign 1](./web_images/Ahead%20only_1.jpg =100x100)
+<img src="./web_images/Ahead%20only_1.jpg" alt="Traffic Sign 1" width="100" height="100">
 
 Pedestrians:
 
-![Traffic Sign 2](./web_images/Pedestrians_1.jpg =100x100)
+<img src="./web_images/Pedestrians_1.jog" alt="Traffic Sign 2" width="100" height="100">
 
 Children Crossing
-![Traffic Sign 3](./web_images/Children%20crossing_1.jpg =100x100)
+
+<img src="./web_images/Children%20crossing_1.jpg" alt="Traffic Sign 3" width="100" height="100">
 
 No Entry:
 
-![Traffic Sign 4](./web_images/No%20entry_1.jpg =100x100)
+<img src="./web_images/No%20entry_1.jpg" alt="Traffic Sign 4" width="100" height="100">
 
-![Traffic Sign 5](./web_images/No%20entry_2.jpg =100x100)
+<img src="./web_images/No%20entry_2.jpg" alt="Traffic Sign 4" width="100" height="100">
 
 General Caution:
 
-![Traffic Sign 6](./web_images/General%20caution_1.jpg =100x100) 
+<img src="./web_images/General%20caution_1.jpg" alt="Traffic Sign 5" width="100" height="100">
 
-![Traffic Sign 7](./web_images/General%20caution_2.jpg =100x100)
+<img src="./web_images/General%20caution_2.jpg" alt="Traffic Sign 6" width="100" height="100">
 
 Not a Sign!
 
-![Cat picture/Not a sign](./web_images/cat.jpg =100x100)
+<img src="./web_images/cat.jpg" alt="Not a Traffic Sign" width="100" height="100">
 
 
 Example qualities  which make it difficult to identify images:
+
 i. Angle of sign - If it's not directly facing the camera, it can be tricky
 For this we could apply some image pre-processing to our training set.
+
 ii. Lighting/weather conditions.
+
 iii. Obstructions - there could be another object hiding parts of the sign  (e.g. my General caution_1.jpg)
+
 iv. Multiple signs
 
 #### 2. Predictions on the new images
@@ -187,7 +192,7 @@ The model was able to correctly guess 6 of the 7 traffic signs, which gives an a
 
 I've added bar charts to visualize these.
 
-Step 4: Visualize the Neural Network's State with Test Images
+#### 4.Visualize the Neural Network's State with Test Images
 
 I looked at the activations at conv1 and conv2. It's hard to generalize observations based on just two images(a General caution picture and a cat picture). But I'll take a stab at creating a few possibile hypothesis.
 
