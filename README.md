@@ -123,7 +123,7 @@ Ahead Only:
 
 Pedestrians:
 
-<img src="./web_images/Pedestrians_1.jog" alt="Traffic Sign 2" width="100" height="100">
+<img src="./web_images/Pedestrians_1.jpg" alt="Traffic Sign 2" width="100" height="100">
 
 Children Crossing
 
